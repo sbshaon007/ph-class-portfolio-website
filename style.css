@@ -8,7 +8,205 @@
 
 body{
 
+font-family: 'Open Sans';
 
 }
 
+.container{
+
+    width: 1280px;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.cta-btn{
+
+    background-color: #fd6e0a;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.cta-btn:hover{
+    color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+
+/* ============================= */
+
+
+/* ============ Header + Nav ============ */
+
+header{
+    background-color: #fff8f3;
+    position: relative;
+}
+
+nav{
+
+    padding: 25px 0;
+    z-index: 999;
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+ul li{
+
+    
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+
+}
+
+ul li a:hover{
+
+    
+    color: #000;
+    transition: all 0.25s ease-in-out;
+
+  
+
+}
+
+/* ===== Header + Nav Ends ======== */
+
+
+
+/* ====== Hero Section ========== */
+
+
+.hero{
+   
+    padding: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff8f3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position:right bottom;
+    width: 1600px;
+
+}
+
+.hero-content {
+
+    width:50%;
+
+}
+
+.hero-greeting {
+
+    color: #474747;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.2em;
+
+}
+
+.hero-name{
+
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #181818;
+    margin-bottom: 25px;
+
+}
+
+.hero-subtext{
+
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 1.5em;
+    padding-right: 150px;
+
+}
+
+.hero-btn-container{
+    margin-top: 30px;
+}
+
+
+
+.contact-btn {
+
+    background-color: transparent;
+    border: 1px solid #fd6e0a;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fd6e0a;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+}
+
+.contact-btn:hover{
+
+    border: 1px solid #181818;
+    color: #181818;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.hero-img{
+
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+
+
+}
+
+.hero-img img{
+    width: auto;
+    height: auto;
+    margin-bottom: -5px;
+
+}
+
+.dev-img{
+
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    right: 50%;
+    bottom: 1%;
+    width: 10%;
+    z-index: 1;
+
+}
+
+/* ====== Hero Section Ends ========== */
 
