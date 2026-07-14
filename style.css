@@ -78,10 +78,6 @@ ul{
     list-style: none;
 }
 
-ul li{
-
-    
-}
 
 ul li a{
 
@@ -233,6 +229,7 @@ ul li a:hover{
     padding: 80px 150px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0px 1px 5px 0px #181818;
     
 }
 
