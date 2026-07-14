@@ -10,13 +10,15 @@ body{
 
 font-family: 'Open Sans';
 
+
 }
 
 .container{
 
-    width: 1280px;
-    max-width: auto;
+    width: 90%;
+    max-width: 1280px;
     margin: 0 auto;
+    
 }
 
 .cta-btn{
@@ -44,13 +46,18 @@ font-family: 'Open Sans';
 /* ============ Header + Nav ============ */
 
 header{
-    background-color: #fff8f3;
     position: relative;
+    background-color: #fff8f3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size:53%;
+    background-position:right 0% bottom 0%;
+    
 }
 
 nav{
 
-    padding: 25px 0;
+    padding: 30px 0;
     z-index: 999;
 
 }
@@ -107,12 +114,9 @@ ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff8f3;
-    background-image: url(./images/header_bg.png);
-    background-repeat: no-repeat;
-    background-size:60%;
-    background-position:right bottom;
-    width: 1600px;
+    
+
+    
 
 }
 
@@ -147,7 +151,7 @@ ul li a:hover{
     font-weight: 400;
     color: #757575;
     line-height: 1.5em;
-    padding-right: 150px;
+    padding-right: 100px;
 
 }
 
@@ -180,33 +184,169 @@ ul li a:hover{
 
 }
 
-.hero-img{
-
-  display: block;
-  margin: 0 auto;
-  width: 50%;
 
 
+.hero-img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
-.hero-img img{
-    width: auto;
-    height: auto;
-    margin-bottom: -5px;
-
+.hero-img img {
+    width: 100%;
+    max-width: 550px;
+    display: block;
+    margin-bottom: 0;
 }
 
-.dev-img{
+/* vertical developer image */
 
+.dev-img {
     position: absolute;
-    left: 5%;
-    top: 5%;
-    right: 50%;
-    bottom: 1%;
-    width: 10%;
+    left: 40px;
+    top: 40px;
+    width: 90px;
     z-index: 1;
+}
 
+
+
+.dev-img img {
+    width: 100%;
 }
 
 /* ====== Hero Section Ends ========== */
+
+
+/* ========== About Section ============= */
+
+#about-section{
+
+    padding: 100px 0;
+
+}
+
+.about-row {
+
+    background-color: #fff8f3;
+    padding: 80px 150px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.about-row-text h2{
+
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.about-row-text p{
+
+    font-size: 20px;
+    color: #757575;
+    line-height: 1.5em;
+
+
+}
+
+.about-row-info{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+/* ========== About Section Ends ============= */
+
+
+
+/* ========== Skill Section ============= */
+
+#skill-section{
+
+    padding: 30px 0px;
+
+}
+
+.skill-section-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-section-heading h2{
+
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #181818;
+
+}
+
+.skill-section-heading p{
+font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #757575;
+    width: 80%;
+    
+}
+
+.skill-box-container{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+}
+
+.skill-box {
+
+    background-color: #fff8f3;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px #181818;
+    
+}
+
+.skill-box img {
+
+    margin-bottom: 20px;
+    
+}
+
+.skill-box h3 {
+    margin-bottom: 10px;
+    color: #181818;
+    font-size: 20px;
+    line-height: 1.2em;
+
+}
+
+.skill-box p{
+    
+    color: #757575;
+    font-size: 18px;
+    line-height: 1.5em;
+    
+}
+
+
+
+/* ========== Skill Section Ends ============= */
+
+
+
 
